@@ -1,0 +1,29 @@
+
+:: JOGO - Montando Personagem ::
+
+- Cabelo
+- Olho
+- Boca
+- Top
+- Bottom
+- Sapato
+- Cor da pele
+
+# Idéia não tão remota
+- Ficar salvo a combinação de escolhas
+
+# Idéia muito muito muito muito remota
+- Salvar como imagem
+
+
+
+:: JOGO - Pista Perfeita ::
+
+
+
+
+
+:: JOGO - Viagem a NETUNO ::
+
+
+
