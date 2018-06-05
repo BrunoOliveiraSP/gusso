@@ -19,11 +19,46 @@
 
 :: JOGO - Pista Perfeita ::
 
+1- Quando colocamos um lápis em um copo com água e olhamos para ele pelo lado do copo,
+o lápis parece: 
+>maior
+menor
+sem mudança
+desaparece
 
+2 - A Lua tem fases que dependem da posição dela em relação ao Sol e a Terra. Vemos
+iluminada a parte da lua que refletiu a luz do Sol para nós na Terra. Quando a Lua
+está toda iluminada para quem a vê na Terra, sua fase é:
+Nova
+>Cheia
+Crescente
+Minguante
 
+3 - A Terra é um planeta e a Lua é um satélite d Terra. Tanto a Terra quanto outros
+planetas como Marte e Júpter giram ao redor do Sol que é um(a):
+Lua
+Cometa
+>Estrela
+Planeta
+
+4 - Se eu colocar um pouco de água em um copo e tampar a boca do copo com um pedaço de 
+papel e, segurando o papel nesse lugar virar o copo de ponta cabeça, quando solto o papel
+a água dentro do copo irá:
+Cair
+Esquentar
+Esfriar
+>Continuar no copo
+
+5 - Quando pego uma pedrinha e uma bolinha de papel, soltando as duas de uma mesma altura
+e ao mesmo tempo, qual chega antes ao chão?
+Pedra
+Papel
+>Chegam juntas
+As duas somem
 
 
 :: JOGO - Viagem a NETUNO ::
 
-
+Uma pequena nave que precisa chegar a Netuno, desviando, com movimentos para cima e para 
+baixo, de planetas, asteroides e naves aliens.
 
