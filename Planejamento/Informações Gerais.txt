@@ -1,0 +1,11 @@
+> Data limite 25/06 <
+Aplicação com crianças para colher resultados: de 12/06 até 18/06
+
+Jogos para Android
+- Se possível, linkar em um único app
+
+Três jogos totais - tudo 2D:
+- Primeiro: customizar personagens (escolher cabelo, roupa, etc...) - dois personagens 
+- Segundo: Quiz (perguntas que resultam em um código)
+- Terceiro: navezinha escapando dos planetinhas (desviar pra cima e pra baixo)
+
