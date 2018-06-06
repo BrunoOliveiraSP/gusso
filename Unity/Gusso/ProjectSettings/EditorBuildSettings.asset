@@ -8,3 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Screens/Menu.unity
     guid: 16efcf02dc4d95e45b94de729afcd55b
+  - enabled: 1
+    path: Assets/Screens/Game1.unity
+    guid: 362430b77f32d0a4cbe23cbe0ad9c24c
+  - enabled: 1
+    path: Assets/Screens/Game2.unity
+    guid: db142d5fb17d86d4fa08afbc531c33de
+  - enabled: 1
+    path: Assets/Screens/Game3.unity
+    guid: 5d0a4fcccf265514b9cbb86562fc675c

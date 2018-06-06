@@ -1,11 +1,15 @@
 fileFormatVersion: 2
-guid: 92bd0189bc7775f478e651de4e54453c
-timeCreated: 1528315587
+guid: ee0b023cbd837824aa707fa906c7d3a8
+timeCreated: 1528314494
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: quiz final_0
-    21300002: quiz final_1
+    21300000: quiz pergunta 3_0
+    21300002: quiz pergunta 3_1
+    21300004: quiz pergunta 3_2
+    21300006: quiz pergunta 3_3
+    21300008: quiz pergunta 3_4
+    21300010: quiz pergunta 3_5
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -80,12 +84,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quiz final_0
+      name: quiz pergunta 3_0
       rect:
         serializedVersion: 2
-        x: 434
-        y: 1517
-        width: 224
+        x: 0
+        y: 1441
+        width: 1138
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 3_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 960
+        width: 933
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 3_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 676
+        width: 843
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 3_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 466
+        width: 844
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 3_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 260
+        width: 848
         height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -93,13 +149,13 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: quiz final_1
+      name: quiz pergunta 3_5
       rect:
         serializedVersion: 2
-        x: 126
-        y: 704
-        width: 865
-        height: 351
+        x: 141
+        y: 56
+        width: 852
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

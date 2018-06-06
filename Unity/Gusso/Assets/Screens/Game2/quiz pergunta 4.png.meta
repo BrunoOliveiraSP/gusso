@@ -1,11 +1,15 @@
 fileFormatVersion: 2
-guid: 92bd0189bc7775f478e651de4e54453c
-timeCreated: 1528315587
+guid: c9c10aa7f643afe44bbc278ce4bfb6a4
+timeCreated: 1528314975
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: quiz final_0
-    21300002: quiz final_1
+    21300000: quiz pergunta 4_0
+    21300002: quiz pergunta 4_1
+    21300004: quiz pergunta 4_2
+    21300006: quiz pergunta 4_3
+    21300008: quiz pergunta 4_4
+    21300010: quiz pergunta 4_5
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -80,12 +84,38 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quiz final_0
+      name: quiz pergunta 4_0
       rect:
         serializedVersion: 2
-        x: 434
-        y: 1517
-        width: 224
+        x: 0
+        y: 1452
+        width: 1138
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 4_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 879
+        width: 926
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 4_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 674
+        width: 841
         height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -93,13 +123,39 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: quiz final_1
+      name: quiz pergunta 4_3
       rect:
         serializedVersion: 2
-        x: 126
-        y: 704
-        width: 865
-        height: 351
+        x: 145
+        y: 463
+        width: 846
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 4_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 258
+        width: 844
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: quiz pergunta 4_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 58
+        width: 844
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
