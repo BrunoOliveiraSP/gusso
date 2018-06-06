@@ -47,7 +47,7 @@ a água dentro do copo irá:
 Cair
 Esquentar
 Esfriar
->Continuar no copo
+>Continua no copo
 
 5 - Quando pego uma pedrinha e uma bolinha de papel, soltando as duas de uma mesma altura
 e ao mesmo tempo, qual chega antes ao chão?
@@ -61,4 +61,5 @@ As duas somem
 
 Uma pequena nave que precisa chegar a Netuno, desviando, com movimentos para cima e para 
 baixo, de planetas, asteroides e naves aliens.
+Em colisões dá tela vermelha com som da colisão
 
