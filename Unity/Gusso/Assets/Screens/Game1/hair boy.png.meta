@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 2dc6ffc384bd552428e2aac9a2747562
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: hair boy_0
+    21300002: hair boy_1
+    21300004: hair boy_2
+    21300006: hair boy_3
+    21300008: hair boy_4
+    21300010: hair boy_5
+    21300012: hair boy_6
+    21300014: hair boy_7
+    21300016: hair boy_8
+    21300018: hair boy_9
+    21300020: hair boy_10
+    21300022: hair boy_11
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +50,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +79,271 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hair boy_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2095
+        width: 785
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46746e019dad9344a43ac689c6e1599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_1
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2095
+        width: 784
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d4c15813006e4a9126303d31b2324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_2
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 2095
+        width: 784
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe64fcfbf0bd7d479af234a307bbbd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_3
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 2095
+        width: 785
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dae500a040d9e74dbb6a8e6769571f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 985
+        width: 1051
+        height: 735
+      alignment: 9
+      pivot: {x: 0.59395075, y: 0.23131362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d513757cbe8f2f4e8c95c1ce15d1310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_5
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1017
+        width: 1056
+        height: 733
+      alignment: 9
+      pivot: {x: 0.5939507, y: 0.2313136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad237d87e00f15941be7ccd62a41516d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_6
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 1017
+        width: 1056
+        height: 733
+      alignment: 9
+      pivot: {x: 0.5939507, y: 0.2313136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccf16067141de64ea36d7712233408d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_7
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 1017
+        width: 1051
+        height: 733
+      alignment: 9
+      pivot: {x: 0.5939507, y: 0.2313136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ce93e3bd83eaa478cbabfe07ea80f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 979
+        height: 713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1726639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a53daa084315d45b3f6b9f7daae14a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_9
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 0
+        width: 979
+        height: 713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1726639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f413093a21664fb4f93e53ab3f433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_10
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 0
+        width: 979
+        height: 713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17266387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672e8891c064e8e4981dd4bdf761613f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hair boy_11
+      rect:
+        serializedVersion: 2
+        x: 3962
+        y: 0
+        width: 979
+        height: 713
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.1726639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0641cd9500cf85b42ba19c5ad9f147df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
