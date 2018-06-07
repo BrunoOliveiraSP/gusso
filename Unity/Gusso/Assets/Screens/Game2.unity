@@ -117,6 +117,8 @@ GameObject:
   m_Component:
   - component: {fileID: 80847328}
   - component: {fileID: 80847329}
+  - component: {fileID: 80847331}
+  - component: {fileID: 80847330}
   m_Layer: 0
   m_Name: quiz pergunta 1_4
   m_TagString: Untagged
@@ -131,7 +133,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 80847327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.33, z: 0}
+  m_LocalPosition: {x: 0, y: -0.00000014901161, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 946311970}
@@ -178,6 +180,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &80847330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80847327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &80847331
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80847327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.56, y: 2.08}
+    newSize: {x: 8.56, y: 2.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.56, y: 2.08}
+  m_EdgeRadius: 0
 --- !u!1 &191296855
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,6 +259,8 @@ GameObject:
   m_Component:
   - component: {fileID: 194031308}
   - component: {fileID: 194031309}
+  - component: {fileID: 194031311}
+  - component: {fileID: 194031310}
   m_Layer: 0
   m_Name: quiz pergunta 1_3
   m_TagString: Untagged
@@ -235,7 +275,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 194031307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.63, z: 0}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 946311970}
@@ -282,6 +322,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &194031310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 194031307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &194031311
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 194031307}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.47, y: 1.91}
+    newSize: {x: 8.47, y: 1.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.47, y: 1.91}
+  m_EdgeRadius: 0
 --- !u!1 &322941543
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,8 +577,10 @@ GameObject:
   m_Component:
   - component: {fileID: 531843778}
   - component: {fileID: 531843779}
+  - component: {fileID: 531843781}
+  - component: {fileID: 531843780}
   m_Layer: 0
-  m_Name: quiz pergunta 4_4
+  m_Name: quiz pergunta 5_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -515,7 +593,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 531843777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.19000015, z: 0}
+  m_LocalPosition: {x: 0, y: 0.019999832, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 762282731}
@@ -562,6 +640,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &531843780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531843777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &531843781
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531843777}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.46, y: 1.92}
+    newSize: {x: 8.56, y: 2.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.46, y: 1.92}
+  m_EdgeRadius: 0
 --- !u!1 &561917398
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +686,7 @@ GameObject:
   - component: {fileID: 561917399}
   - component: {fileID: 561917400}
   m_Layer: 0
-  m_Name: quiz pergunta 4_0
+  m_Name: quiz pergunta 5_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -641,6 +755,8 @@ GameObject:
   m_Component:
   - component: {fileID: 583586227}
   - component: {fileID: 583586228}
+  - component: {fileID: 583586230}
+  - component: {fileID: 583586229}
   m_Layer: 0
   m_Name: quiz pergunta 3_4
   m_TagString: Untagged
@@ -702,6 +818,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &583586229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583586226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &583586230
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583586226}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.52, y: 1.93}
+    newSize: {x: 8.56, y: 2.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.52, y: 1.93}
+  m_EdgeRadius: 0
 --- !u!1 &614371014
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,8 +863,10 @@ GameObject:
   m_Component:
   - component: {fileID: 614371015}
   - component: {fileID: 614371016}
+  - component: {fileID: 614371018}
+  - component: {fileID: 614371017}
   m_Layer: 0
-  m_Name: quiz pergunta 4_1
+  m_Name: quiz pergunta 5_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +879,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 614371014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.09, z: 0}
+  m_LocalPosition: {x: 0, y: 3.9199998, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 762282731}
@@ -772,6 +926,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &614371017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614371014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &614371018
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614371014}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.47, y: 1.95}
+    newSize: {x: 8.56, y: 2.03}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.47, y: 1.95}
+  m_EdgeRadius: 0
 --- !u!1 &665141192
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +1042,7 @@ GameObject:
   - component: {fileID: 720706947}
   - component: {fileID: 720706948}
   m_Layer: 0
-  m_Name: quiz pergunta 2_0
+  m_Name: quiz pergunta 5_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -921,6 +1111,8 @@ GameObject:
   m_Component:
   - component: {fileID: 742465917}
   - component: {fileID: 742465918}
+  - component: {fileID: 742465920}
+  - component: {fileID: 742465919}
   m_Layer: 0
   m_Name: quiz pergunta 2_1
   m_TagString: Untagged
@@ -982,6 +1174,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &742465919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742465916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &742465920
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742465916}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.46, y: 1.97}
+    newSize: {x: 8.56, y: 2.03}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.46, y: 1.97}
+  m_EdgeRadius: 0
 --- !u!1 &762282730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1463,8 @@ GameObject:
   m_Component:
   - component: {fileID: 920968542}
   - component: {fileID: 920968543}
+  - component: {fileID: 920968545}
+  - component: {fileID: 920968544}
   m_Layer: 0
   m_Name: quiz pergunta 4_4
   m_TagString: Untagged
@@ -1296,6 +1526,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &920968544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920968541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &920968545
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920968541}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.44, y: 1.82}
+    newSize: {x: 8.56, y: 2.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.44, y: 1.82}
+  m_EdgeRadius: 0
 --- !u!1 &925817056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,6 +1571,8 @@ GameObject:
   m_Component:
   - component: {fileID: 925817057}
   - component: {fileID: 925817058}
+  - component: {fileID: 925817060}
+  - component: {fileID: 925817059}
   m_Layer: 0
   m_Name: quiz pergunta 1_2
   m_TagString: Untagged
@@ -1319,7 +1587,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 925817056}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.93, z: 0}
+  m_LocalPosition: {x: 0, y: 2.6, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 946311970}
@@ -1366,6 +1634,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &925817059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 925817056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &925817060
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 925817056}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.43, y: 1.89}
+    newSize: {x: 8.43, y: 1.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.43, y: 1.89}
+  m_EdgeRadius: 0
 --- !u!1 &946311969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,7 +1684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &946311970
 Transform:
   m_ObjectHideFlags: 0
@@ -1410,8 +1714,9 @@ GameObject:
   - component: {fileID: 1011738317}
   - component: {fileID: 1011738318}
   - component: {fileID: 1011738319}
+  - component: {fileID: 1011738320}
   m_Layer: 0
-  m_Name: quiz fail_2
+  m_Name: quiz fail_nao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1496,6 +1801,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.92, y: 0.81}
   m_EdgeRadius: 0
+--- !u!114 &1011738320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011738316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1038535887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,8 +1821,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1038535888}
   - component: {fileID: 1038535889}
+  - component: {fileID: 1038535891}
+  - component: {fileID: 1038535890}
   m_Layer: 0
-  m_Name: quiz pergunta 4_3
+  m_Name: quiz pergunta 5_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1519,7 +1837,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1038535887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.4900001, z: 0}
+  m_LocalPosition: {x: 0, y: 1.3199998, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 762282731}
@@ -1566,6 +1884,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1038535890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038535887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1038535891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038535887}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.43, y: 1.9}
+    newSize: {x: 8.47, y: 1.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.43, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &1071581140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1929,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1071581141}
   - component: {fileID: 1071581142}
+  - component: {fileID: 1071581144}
+  - component: {fileID: 1071581143}
   m_Layer: 0
   m_Name: quiz pergunta 2_3
   m_TagString: Untagged
@@ -1636,6 +1992,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1071581143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071581140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1071581144
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1071581140}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.46, y: 1.93}
+    newSize: {x: 8.47, y: 1.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.46, y: 1.93}
+  m_EdgeRadius: 0
 --- !u!1 &1085698057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,7 +2042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1085698058
 Transform:
   m_ObjectHideFlags: 0
@@ -1692,8 +2084,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091434697}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.6799998, z: 0}
-  m_LocalScale: {x: 0.21607716, y: 0.21607716, z: 0.21607716}
+  m_LocalPosition: {x: 0.077, y: -0.926, z: 0}
+  m_LocalScale: {x: 0.1990235, y: 0.1990235, z: 0.1990235}
   m_Children: []
   m_Father: {fileID: 1105858553}
   m_RootOrder: 2
@@ -1815,6 +2207,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1113518009}
   - component: {fileID: 1113518010}
+  - component: {fileID: 1113518012}
+  - component: {fileID: 1113518011}
   m_Layer: 0
   m_Name: quiz pergunta 1_1
   m_TagString: Untagged
@@ -1829,7 +2223,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1113518008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.23, z: 0}
+  m_LocalPosition: {x: 0, y: 3.8999999, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 946311970}
@@ -1876,6 +2270,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1113518011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113518008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1113518012
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113518008}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.56, y: 2.03}
+    newSize: {x: 8.56, y: 2.03}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.56, y: 2.03}
+  m_EdgeRadius: 0
 --- !u!1 &1133637318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,6 +2315,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1133637320}
   - component: {fileID: 1133637319}
+  - component: {fileID: 1133637322}
+  - component: {fileID: 1133637321}
   m_Layer: 0
   m_Name: iniciar
   m_TagString: Untagged
@@ -1946,6 +2378,42 @@ Transform:
   m_Father: {fileID: 1085698058}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1133637321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133637318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1133637322
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133637318}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.76, y: 2.49}
+    newSize: {x: 10.34, y: 15.43}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.76, y: 2.49}
+  m_EdgeRadius: 0
 --- !u!1 &1258844533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,7 +2437,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1258844533}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 6.4, z: 0}
+  m_LocalPosition: {x: 0, y: 6.19, z: 0}
   m_LocalScale: {x: 0.61348504, y: 0.61348504, z: 0.61348504}
   m_Children: []
   m_Father: {fileID: 946311970}
@@ -2025,6 +2493,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1295992704}
   - component: {fileID: 1295992705}
+  - component: {fileID: 1295992707}
+  - component: {fileID: 1295992706}
   m_Layer: 0
   m_Name: quiz pergunta 2_4
   m_TagString: Untagged
@@ -2086,6 +2556,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1295992706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295992703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1295992707
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1295992703}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.52, y: 1.92}
+    newSize: {x: 8.56, y: 2.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.52, y: 1.92}
+  m_EdgeRadius: 0
 --- !u!1 &1363894964
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,6 +2633,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1370090898}
   - component: {fileID: 1370090899}
+  - component: {fileID: 1370090901}
+  - component: {fileID: 1370090900}
   m_Layer: 0
   m_Name: quiz pergunta 3_1
   m_TagString: Untagged
@@ -2188,6 +2696,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1370090900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370090897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1370090901
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370090897}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.43, y: 1.9}
+    newSize: {x: 8.56, y: 2.03}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.43, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &1389231166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2892,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1488909514}
   - component: {fileID: 1488909515}
+  - component: {fileID: 1488909517}
+  - component: {fileID: 1488909516}
   m_Layer: 0
   m_Name: quiz pergunta 2_2
   m_TagString: Untagged
@@ -2409,6 +2955,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1488909516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1488909513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1488909517
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1488909513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.44, y: 1.86}
+    newSize: {x: 8.43, y: 1.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.44, y: 1.86}
+  m_EdgeRadius: 0
 --- !u!1 &1516633097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,7 +3001,7 @@ GameObject:
   - component: {fileID: 1516633099}
   - component: {fileID: 1516633098}
   m_Layer: 0
-  m_Name: quiz pergunta 2_0
+  m_Name: quiz pergunta 1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2489,8 +3071,9 @@ GameObject:
   - component: {fileID: 1522290394}
   - component: {fileID: 1522290395}
   - component: {fileID: 1522290396}
+  - component: {fileID: 1522290397}
   m_Layer: 0
-  m_Name: quiz fail_1
+  m_Name: quiz fail_sim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2575,6 +3158,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.94, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &1522290397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1522290393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1549060665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,7 +3264,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1664048846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2, y: -3.88, z: 0}
+  m_LocalPosition: {x: 0.081, y: -3.719, z: 0}
   m_LocalScale: {x: 0.19370177, y: 0.19370177, z: 0.19370177}
   m_Children: []
   m_Father: {fileID: 1085698058}
@@ -2762,6 +3356,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1690263170}
   - component: {fileID: 1690263171}
+  - component: {fileID: 1690263173}
+  - component: {fileID: 1690263172}
   m_Layer: 0
   m_Name: quiz pergunta 4_2
   m_TagString: Untagged
@@ -2823,6 +3419,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1690263172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1690263169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1690263173
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1690263169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.46, y: 1.93}
+    newSize: {x: 8.43, y: 1.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.46, y: 1.93}
+  m_EdgeRadius: 0
 --- !u!1 &1713657546
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,6 +3464,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1713657547}
   - component: {fileID: 1713657548}
+  - component: {fileID: 1713657550}
+  - component: {fileID: 1713657549}
   m_Layer: 0
   m_Name: quiz pergunta 4_3
   m_TagString: Untagged
@@ -2893,6 +3527,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1713657549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1713657546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1713657550
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1713657546}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.44, y: 1.94}
+    newSize: {x: 8.47, y: 1.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.44, y: 1.94}
+  m_EdgeRadius: 0
 --- !u!1 &1725732862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,6 +3606,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1725847184}
   - component: {fileID: 1725847185}
+  - component: {fileID: 1725847187}
+  - component: {fileID: 1725847186}
   m_Layer: 0
   m_Name: quiz pergunta 4_1
   m_TagString: Untagged
@@ -2997,6 +3669,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1725847186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1725847183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1725847187
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1725847183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.41, y: 1.92}
+    newSize: {x: 8.56, y: 2.03}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.41, y: 1.92}
+  m_EdgeRadius: 0
 --- !u!1 &1842966832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,6 +3714,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1842966833}
   - component: {fileID: 1842966834}
+  - component: {fileID: 1842966836}
+  - component: {fileID: 1842966835}
   m_Layer: 0
   m_Name: quiz pergunta 3_2
   m_TagString: Untagged
@@ -3067,6 +3777,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1842966835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1842966832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1842966836
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1842966832}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.44, y: 1.88}
+    newSize: {x: 8.43, y: 1.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.44, y: 1.88}
+  m_EdgeRadius: 0
 --- !u!1 &1895175583
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,6 +3822,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1895175584}
   - component: {fileID: 1895175585}
+  - component: {fileID: 1895175587}
+  - component: {fileID: 1895175586}
   m_Layer: 0
   m_Name: quiz pergunta 3_3
   m_TagString: Untagged
@@ -3137,6 +3885,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1895175586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1895175583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1895175587
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1895175583}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.48, y: 1.92}
+    newSize: {x: 8.47, y: 1.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.48, y: 1.92}
+  m_EdgeRadius: 0
 --- !u!1 &1900030165
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,8 +4073,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1974938185}
   - component: {fileID: 1974938186}
+  - component: {fileID: 1974938188}
+  - component: {fileID: 1974938187}
   m_Layer: 0
-  m_Name: quiz pergunta 4_2
+  m_Name: quiz pergunta 5_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3303,7 +4089,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1974938184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.7900002, z: 0}
+  m_LocalPosition: {x: 0, y: 2.62, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 762282731}
@@ -3350,6 +4136,42 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &1974938187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1974938184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5048b8ed055771943a52e7d977c9e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1974938188
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1974938184}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.44, y: 1.95}
+    newSize: {x: 8.43, y: 1.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.44, y: 1.95}
+  m_EdgeRadius: 0
 --- !u!1 &1992319292
 GameObject:
   m_ObjectHideFlags: 0
@@ -3443,8 +4265,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2138023029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.52, z: 0}
-  m_LocalScale: {x: 0.600123, y: 0.600123, z: 0.600123}
+  m_LocalPosition: {x: 0, y: 3.46, z: 0}
+  m_LocalScale: {x: 0.63714164, y: 0.63714164, z: 0.63714164}
   m_Children: []
   m_Father: {fileID: 1105858553}
   m_RootOrder: 1
