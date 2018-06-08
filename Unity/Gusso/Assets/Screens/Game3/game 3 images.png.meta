@@ -17,7 +17,12 @@ TextureImporter:
     21300020: game 3 images_10
     21300022: game 3 images_11
     21300024: game 3 images_12
+<<<<<<< HEAD
   serializedVersion: 4
+=======
+  externalObjects: {}
+  serializedVersion: 5
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -87,6 +92,32 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
+=======
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -97,25 +128,57 @@ TextureImporter:
         x: 0
         y: 1054
         width: 439
+<<<<<<< HEAD
         height: 498
+=======
+        height: 440
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400587d6f9fcc5547a28ff76d303d60f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_1
       rect:
         serializedVersion: 2
         x: 628
+<<<<<<< HEAD
         y: 1186
         width: 555
         height: 318
+=======
+        y: 1185
+        width: 555
+        height: 319
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e79de6f38eb36c468ddccbeb9ad9fc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_2
       rect:
@@ -128,7 +191,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8cf2544681c4947a699ac4194e4d80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_3
       rect:
@@ -141,7 +215,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e488a320535dc4599761de80b922ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_4
       rect:
@@ -154,7 +239,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c9435bb70841c4abb611b0034be762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_5
       rect:
@@ -167,7 +263,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e24363afe9d9854aba9d35b8e6dac71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_6
       rect:
@@ -180,7 +287,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae1c376a20f3a54da0f26710a9e5481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_7
       rect:
@@ -193,7 +311,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc38317df1d8d54e8b91fb5e4020e0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_8
       rect:
@@ -206,7 +335,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d85e2f9d5c3dfe4eab54920825e0fe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_9
       rect:
@@ -219,7 +359,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae291513c8af9514cbdd926a9ce3374e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_10
       rect:
@@ -232,7 +383,18 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1226eba573d1b4c4abfc0e8cc1d89482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_11
       rect:
@@ -245,20 +407,48 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dee457ef6b702c42ac8eb4be492e1ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     - serializedVersion: 2
       name: game 3 images_12
       rect:
         serializedVersion: 2
         x: 1999
+<<<<<<< HEAD
         y: 0
         width: 279
         height: 287
+=======
+        y: 67
+        width: 279
+        height: 220
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+<<<<<<< HEAD
       tessellationDetail: 0
+=======
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9741b63367884df4aaa5b2e5ff8536ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 220bde34609cd3a47d37261fd6e544a1e6f2cc7a
     outline: []
   spritePackingTag: 
   userData: 
