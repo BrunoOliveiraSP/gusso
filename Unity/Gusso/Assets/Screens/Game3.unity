@@ -170,7 +170,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300002, guid: 59cd62c22ef9a6c43b9d482c827b9eaf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -214,7 +214,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.9700003, y: 4.9700003}
+  m_Size: {x: 8, y: 7.42}
   m_EdgeRadius: 0
 --- !u!1 &166084142
 GameObject:
@@ -392,7 +392,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.9700003, y: 4.9700003}
+  m_Size: {x: 11.29, y: 9.61}
   m_EdgeRadius: 0
 --- !u!1 &207442790
 GameObject:
@@ -2490,7 +2490,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.849999, y: 2.51}
+  m_Size: {x: 12.2, y: 4.4}
   m_EdgeRadius: 0
 --- !u!1 &2082558459
 GameObject:
