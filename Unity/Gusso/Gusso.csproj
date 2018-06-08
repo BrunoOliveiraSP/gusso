@@ -80,6 +80,10 @@
   <ItemGroup>
     <Compile Include="Assets\Screens\Game2\Scripts\MenuClick.cs" />
     <Compile Include="Assets\Screens\Game2\Scripts\QuizScript.cs" />
+    <Compile Include="Assets\Screens\Game3\Scripts\Cenario.cs" />
+    <Compile Include="Assets\Screens\Game3\Scripts\CimaBaixo.cs" />
+    <Compile Include="Assets\Screens\Game3\Scripts\Game3Click.cs" />
+    <Compile Include="Assets\Screens\Game3\Scripts\Player.cs" />
     <Compile Include="Assets\Screens\Menu\Scripts\ClickScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
