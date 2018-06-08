@@ -38,7 +38,7 @@ public class Game3Click : MonoBehaviour {
 
         if (gameObject.name == "sim")
         {
-            SceneManager.LoadScene("Game3   ");
+            SceneManager.LoadScene("Game3");
         }
 
         if (gameObject.name == "nao")
