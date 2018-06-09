@@ -12,7 +12,7 @@ public class Cenario : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (transform.position.x >= -75.6f)
+        if (transform.position.x >= -85f)
         {
             float speed = 3.0f;
             transform.Translate(-Vector3.right * speed * Time.deltaTime);

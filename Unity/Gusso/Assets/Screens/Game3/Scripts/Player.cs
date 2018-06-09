@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+    bool venceu = false;
     GameObject paginaInicio;
     GameObject paginaGame;
     GameObject paginaVitoria;
@@ -23,10 +24,33 @@ public class Player : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (cenario.transform.position.x < -75.6f)
+        if (cenario.transform.position.x < -85f)
+        {
+            if (venceu == false)
+            {
+                SetVisibility(paginaGame, false);
+                SetVisibility(paginaErro, true);
+            }
+        }
+    }
+
+    
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        print(collision.gameObject.tag);
+
+        if (collision.gameObject.tag == "enemy")
+        {
+            SetVisibility(paginaGame, false);
+            SetVisibility(paginaErro, true);
+        }
+
+        if (collision.gameObject.tag == "victory")
         {
             SetVisibility(paginaGame, false);
             SetVisibility(paginaVitoria, true);
+
+            venceu = true;
         }
     }
 
@@ -53,6 +77,14 @@ public class Player : MonoBehaviour {
             }
 
             foreach (Transform child in GameObject.Find("planetas").transform)
+            {
+                if (child.gameObject.GetComponent<Renderer>() != null)
+                    child.gameObject.GetComponent<Renderer>().enabled = enabled;
+                if (child.gameObject.GetComponent<Collider2D>() != null)
+                    child.gameObject.GetComponent<Collider2D>().enabled = enabled;
+            }
+
+            foreach (Transform child in GameObject.Find("obstaculos").transform)
             {
                 if (child.gameObject.GetComponent<Renderer>() != null)
                     child.gameObject.GetComponent<Renderer>().enabled = enabled;

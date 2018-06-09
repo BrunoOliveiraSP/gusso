@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FeatureManeger.cs" />
     <Compile Include="Assets\Screens\Game2\Scripts\MenuClick.cs" />
     <Compile Include="Assets\Screens\Game2\Scripts\QuizScript.cs" />
     <Compile Include="Assets\Screens\Game3\Scripts\Cenario.cs" />

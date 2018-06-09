@@ -83,6 +83,14 @@ public class Game3Click : MonoBehaviour {
                     child.gameObject.GetComponent<Collider2D>().enabled = enabled;
             }
 
+            foreach (Transform child in GameObject.Find("obstaculos").transform)
+            {
+                if (child.gameObject.GetComponent<Renderer>() != null)
+                    child.gameObject.GetComponent<Renderer>().enabled = enabled;
+                if (child.gameObject.GetComponent<Collider2D>() != null)
+                    child.gameObject.GetComponent<Collider2D>().enabled = enabled;
+            }
+
             if (enabled == true)
             {
                 GameObject.Find("cenario").transform.position = new Vector3(1.9f, GameObject.Find("cenario").transform.position.y);
