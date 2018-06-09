@@ -6,7 +6,7 @@ PlayerSettings:
   serializedVersion: 11
   productGUID: 8e5cb270037aa134c919c3dcab6d1330
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -58,9 +58,9 @@ PlayerSettings:
   displayResolutionDialog: 1
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
-  allowedAutorotateToPortraitUpsideDown: 1
-  allowedAutorotateToLandscapeRight: 1
-  allowedAutorotateToLandscapeLeft: 1
+  allowedAutorotateToPortraitUpsideDown: 0
+  allowedAutorotateToLandscapeRight: 0
+  allowedAutorotateToLandscapeLeft: 0
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
   disableDepthAndStencilBuffers: 0
@@ -228,7 +228,7 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: 0fc5298e5deffd549b50afef11bf1d45, type: 3}
       m_Width: 192
       m_Height: 192
     - serializedVersion: 2
@@ -248,7 +248,7 @@ PlayerSettings:
       m_Width: 48
       m_Height: 48
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 289cdaf2fbf0b9c4c95b3cf03caee28a, type: 3}
+      m_Icon: {fileID: 2800000, guid: 0fc5298e5deffd549b50afef11bf1d45, type: 3}
       m_Width: 36
       m_Height: 36
   m_BuildTargetBatching: []

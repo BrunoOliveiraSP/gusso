@@ -6,7 +6,7 @@ public class Cenario : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        Screen.orientation = ScreenOrientation.Landscape;
 	}
 	
 	// Update is called once per frame

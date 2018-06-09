@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>5.6.3p1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -81,8 +83,9 @@
     <Compile Include="Assets\FeatureManeger.cs" />
     <Compile Include="Assets\Screens\Game2\Scripts\MenuClick.cs" />
     <Compile Include="Assets\Screens\Game2\Scripts\QuizScript.cs" />
+    <Compile Include="Assets\Screens\Game3\Scripts\Cima.cs" />
+    <Compile Include="Assets\Screens\Game3\Scripts\Baixo.cs" />
     <Compile Include="Assets\Screens\Game3\Scripts\Cenario.cs" />
-    <Compile Include="Assets\Screens\Game3\Scripts\CimaBaixo.cs" />
     <Compile Include="Assets\Screens\Game3\Scripts\Game3Click.cs" />
     <Compile Include="Assets\Screens\Game3\Scripts\Player.cs" />
     <Compile Include="Assets\Screens\Menu\Scripts\ClickScript.cs" />

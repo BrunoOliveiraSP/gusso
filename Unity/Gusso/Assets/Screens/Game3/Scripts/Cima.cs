@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CimaBaixo : MonoBehaviour {
+public class Cima : MonoBehaviour {
 
     GameObject player;
 
@@ -17,20 +17,36 @@ public class CimaBaixo : MonoBehaviour {
         float holdTime = 0.8f; //or whatever
         float acumTime = 0;
 
-        if (Input.touchCount > 0)
+        //if (Input.touchCount > 0)
+        //{
+        //    acumTime += Input.GetTouch(0).deltaTime;
+
+        //    if (acumTime >= holdTime)
+        //    {
+        //        IrParaCimaOuBaixo();
+        //    }
+
+        //    if (Input.GetTouch(0).phase == TouchPhase.Ended)
+        //    {
+        //        acumTime = 0;
+        //    }
+        //}
+
+        if (Input.touchCount > 0 && gameObject.name == "cima")
         {
-            acumTime += Input.GetTouch(0).deltaTime;
-
-            if (acumTime >= holdTime)
+            foreach (Touch t in Input.touches)
             {
-                print("long");
-            }
-
-            if (Input.GetTouch(0).phase == TouchPhase.Ended)
-            {
-                acumTime = 0;
+                //if (t.phase == TouchPhase.Began)
+                //{
+                //    IrParaCimaOuBaixo();
+                //}
+                if (t.phase == TouchPhase.Stationary)
+                {
+                    IrParaCimaOuBaixo();
+                }
             }
         }
+
 
         //if (Input.GetMouseButtonDown(0))
         //{
@@ -58,31 +74,34 @@ public class CimaBaixo : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        if (gameObject.name == "baixo")
-        {
-            float speed = 10.0f;
-            player.transform.Translate(Vector3.down * speed * Time.deltaTime);
+        IrParaCimaOuBaixo();
 
-            print("baixo");
 
-            if (player.transform.localPosition.y < -2f)
-            {
-                player.transform.localPosition = new Vector3(player.transform.localPosition.x, -2f);
-            }
-        }
+    }
 
-        if (gameObject.name == "cima")
+
+    private void IrParaCimaOuBaixo()
+    {
+        //if (gameObject.name == "baixo")
+        //{
+        //    float speed = 10.0f;
+        //    player.transform.Translate(Vector3.down * speed * Time.deltaTime);
+
+        //    if (player.transform.localPosition.y < -2f)
+        //    {
+        //        player.transform.localPosition = new Vector3(player.transform.localPosition.x, -2f);
+        //    }
+        //}
+
+        //if (gameObject.name == "cima")
         {
             float speed = 10.0f;
             player.transform.Translate(Vector3.up * speed * Time.deltaTime);
-
-            print("cima");
 
             if (player.transform.localPosition.y > 6.8f)
             {
                 player.transform.localPosition = new Vector3(player.transform.localPosition.x, 6.8f);
             }
         }
-        
     }
 }
