@@ -1829,7 +1829,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1038875315
 GameObject:
@@ -3704,7 +3704,7 @@ Transform:
   - {fileID: 1240507794}
   - {fileID: 450060217}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1842975304
 GameObject:
@@ -3856,6 +3856,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1971075352}
+  - component: {fileID: 1971075353}
   m_Layer: 0
   m_Name: Gabriela
   m_TagString: Untagged
@@ -3883,6 +3884,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971075353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971075351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af80aebf3e90d34497b5f8b38e5340e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  features: []
+  currFeature: 0
 --- !u!1 &1980211273
 GameObject:
   m_ObjectHideFlags: 0
