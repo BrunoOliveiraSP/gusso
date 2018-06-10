@@ -50,6 +50,8 @@ public class Game3Click : MonoBehaviour {
         {
             SetVisibility(paginaInicio, false);
             SetVisibility(paginaGame, true);
+
+            Cenario.comecou = true;
         }
     }
 
