@@ -20,6 +20,8 @@ public class QuizScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        Screen.orientation = ScreenOrientation.Landscape;
+
         correctAnswears = 0;
 
         paginaIniciar = GameObject.Find("pagina_inicio");
