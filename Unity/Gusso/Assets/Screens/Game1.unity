@@ -512,8 +512,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190.01994, y: -105.7}
-  m_SizeDelta: {x: 51.034, y: 39.84}
+  m_AnchoredPosition: {x: 190.01994, y: -102.8}
+  m_SizeDelta: {x: 48, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &246823939
 MonoBehaviour:
@@ -586,8 +586,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: aa197c5539bca904a833ea7de3b79c9b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1712,7 +1712,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <
+  m_Text: '
+
+'
 --- !u!222 &827909849
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1786,7 +1788,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '>'
+  m_Text: '
+
+'
 --- !u!222 &893243923
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4390,8 +4394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -177.3, y: -106}
-  m_SizeDelta: {x: 51.003, y: 39.81}
+  m_AnchoredPosition: {x: -177.3, y: -103}
+  m_SizeDelta: {x: 48, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005538461
 MonoBehaviour:
@@ -4428,7 +4432,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2005538462}
+  m_TargetGraphic: {fileID: 577381611}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -4464,8 +4468,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: aa197c5539bca904a833ea7de3b79c9b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

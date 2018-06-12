@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 97904b195e2c19b40b165c2bd50624e6
-timeCreated: 1528842571
+guid: f8e065e5b77bd4a4ea74b25ad2da600d
+timeCreated: 1528845523
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -82,10 +82,10 @@ TextureImporter:
       name: quiz pergunta 4b_0
       rect:
         serializedVersion: 2
-        x: 536
-        y: 831
-        width: 2439
-        height: 644
+        x: 526
+        y: 849
+        width: 2453
+        height: 609
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
