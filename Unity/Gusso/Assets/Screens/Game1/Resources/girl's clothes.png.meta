@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 1a6729378e7c6a14abfde46266edf60c
+timeCreated: 1528838052
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: girl's clothes_0
@@ -10,8 +12,7 @@ TextureImporter:
     21300010: girl's clothes_5
     21300012: girl's clothes_6
     21300014: girl's clothes_7
-  externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -19,8 +20,6 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
-    mipMapsPreserveCoverage: 0
-    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -36,13 +35,10 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    serializedVersion: 2
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,52 +47,41 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
+  - buildTarget: Standalone
     maxTextureSize: 2048
-    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
+  - buildTarget: Android
     maxTextureSize: 2048
-    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -104,170 +89,107 @@ TextureImporter:
       name: girl's clothes_0
       rect:
         serializedVersion: 2
-        x: 138
-        y: 2061
-        width: 555
-        height: 367
+        x: 227
+        y: 2173
+        width: 571
+        height: 383
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 8cecd3ecd7b7ad9408beea7379710b2c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: girl's clothes_1
       rect:
         serializedVersion: 2
-        x: 1101
-        y: 2061
-        width: 553
-        height: 367
+        x: 1189
+        y: 2173
+        width: 569
+        height: 383
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 915d314427fecaa48b61f45ff810b6de
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: girl's clothes_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1388
-        width: 833
+        x: 87
+        y: 1500
+        width: 834
         height: 367
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 74003666757d8474aa6e94cc2d2e7c15
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: girl's clothes_3
       rect:
         serializedVersion: 2
-        x: 1163
-        y: 1339
+        x: 1251
+        y: 1433
         width: 430
-        height: 381
+        height: 396
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5414def974d5cd748a24f98a45f68b0f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: girl's clothes_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 688
-        width: 833
+        x: 87
+        y: 800
+        width: 834
         height: 368
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 11b9d41ab5c282f428d1491940befc3a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: girl's clothes_5
       rect:
         serializedVersion: 2
-        x: 1163
-        y: 638
+        x: 1251
+        y: 744
         width: 430
-        height: 381
+        height: 389
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 25ab5f608671c2e4a9ca897b450dd542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: girl's clothes_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 833
+        x: 87
+        y: 111
+        width: 834
         height: 367
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d2737c0a540e49845936110243c9791e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: girl's clothes_7
       rect:
         serializedVersion: 2
-        x: 1163
-        y: 0
+        x: 1251
+        y: 49
         width: 430
-        height: 328
+        height: 391
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 96d1bc770d14ef145859c19eb130f2b2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
-    physicsShape: []
-    bones: []
-    spriteID: 069cf4ef2755a1b40815d344b4699599
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

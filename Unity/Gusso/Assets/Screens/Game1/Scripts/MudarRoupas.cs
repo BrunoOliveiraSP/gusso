@@ -12,14 +12,20 @@ public class MudarRoupas : MonoBehaviour {
     public GameObject Gabi_Calca;
     public GameObject Gabi_Cabelo;
     public GameObject Gabi_Sapato;
+    public GameObject Gabi_Skin;
+    public GameObject Hugo_Skin;
+
+
     
+
+
     public GameObject Hugo_Boca;
     public GameObject Hugo_Blusa;
     public GameObject Hugo_Olhos;
     public GameObject Hugo_Calca;
     public GameObject Hugo_Cabelo;
     public GameObject Hugo_Sapato;
-    
+
 
     int hugo_boca_current = 0;
     int hugo_blusa_current = 0;
@@ -27,7 +33,10 @@ public class MudarRoupas : MonoBehaviour {
     int hugo_calca_current = 0;
     int hugo_cabelo_current = 0;
     int hugo_sapato_current = 0;
+    int hugo_skin_current = 0;
 
+
+    int gabi_skin_current = 0;
     int gabi_boca_current = 0;
     int gabi_blusa_current = 0;
     int gabi_olhos_current = 0;
@@ -41,7 +50,9 @@ public class MudarRoupas : MonoBehaviour {
     Sprite[] hugo_calca;
     Sprite[] hugo_cabelo;
     Sprite[] hugo_sapato;
+    Sprite[] hugo_skin;
 
+    Sprite[] gabi_skin;
     Sprite[] gabi_boca;
     Sprite[] gabi_blusa;
     Sprite[] gabi_olhos;
@@ -69,6 +80,9 @@ public class MudarRoupas : MonoBehaviour {
 
         var hugo_sapato_name = new string[] { "face and bottom_10", "face and bottom_20", "face and bottom_25" };
         hugo_sapato = Resources.LoadAll<Sprite>("face and bottom").Where(x => hugo_sapato_name.Contains(x.name)).ToArray();
+
+        var hugo_skin_name = new string[] { "body_3", "body_4", "body_5" };
+        hugo_skin = Resources.LoadAll<Sprite>("body").Where(x => hugo_skin_name.Contains(x.name)).ToArray();
 
 
 
@@ -100,8 +114,8 @@ public class MudarRoupas : MonoBehaviour {
         var gabi_sapato_name = new string[] { "face and bottom_10", "face and bottom_20", "face and bottom_25" };
         gabi_sapato = Resources.LoadAll<Sprite>("face and bottom").Where(x => gabi_sapato_name.Contains(x.name)).ToArray();
 
-
-
+        var gabi_skin_name = new string[] { "body_0", "body_1", "body_2" };
+        gabi_skin = Resources.LoadAll<Sprite>("body").Where(x => gabi_skin_name.Contains(x.name)).ToArray();
     }
 
 
@@ -166,6 +180,17 @@ public class MudarRoupas : MonoBehaviour {
         Hugo_Sapato.GetComponent<SpriteRenderer>().sprite = hugo_sapato[hugo_sapato_current];
     }
 
+    public void HugSkin_Click()
+    {
+        hugo_skin_current++;
+
+        if (hugo_skin_current == hugo_skin.Length)
+            hugo_skin_current = 0;
+
+        Hugo_Skin.GetComponent<SpriteRenderer>().sprite = hugo_skin[hugo_skin_current];
+    }
+
+
 
     public void GabiBlusa_Click()
     {
@@ -228,5 +253,15 @@ public class MudarRoupas : MonoBehaviour {
         Gabi_Sapato.GetComponent<SpriteRenderer>().sprite = gabi_sapato[gabi_sapato_current];
     }
 
+    public void GabiSkin_Click()
+    {
+        gabi_skin_current++;
+
+
+        if (gabi_skin_current == gabi_skin.Length)
+            gabi_skin_current = 0;
+
+        Gabi_Skin.GetComponent<SpriteRenderer>().sprite = gabi_skin[gabi_skin_current];
+    }
 
 }

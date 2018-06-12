@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: a9dffae577141874189042cfaa1e1b5a
+timeCreated: 1528837841
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: hair girl_0
@@ -14,8 +16,7 @@ TextureImporter:
     21300018: hair girl_9
     21300020: hair girl_10
     21300022: hair girl_11
-  externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,8 +24,6 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
-    mipMapsPreserveCoverage: 0
-    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -40,13 +39,10 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    serializedVersion: 2
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -55,52 +51,41 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
+  - buildTarget: Standalone
     maxTextureSize: 2048
-    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
+  - buildTarget: Android
     maxTextureSize: 2048
-    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -108,250 +93,159 @@ TextureImporter:
       name: hair girl_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1950
-        width: 820
-        height: 1018
+        x: 477
+        y: 2669
+        width: 825
+        height: 1346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 81fca21b0bab04f49999f983622451da
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_1
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1941
+        x: 1632
+        y: 2661
         width: 822
-        height: 1017
+        height: 1346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6119df1e48d5ab64cae03ea5fc5050dd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_2
       rect:
         serializedVersion: 2
-        x: 2331
-        y: 1950
+        x: 2810
+        y: 2669
         width: 824
-        height: 1018
+        height: 1346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 644de175f0b87b74d956041f8e503e3d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_3
       rect:
         serializedVersion: 2
-        x: 3538
-        y: 1958
-        width: 820
-        height: 1016
+        x: 4017
+        y: 2677
+        width: 824
+        height: 1346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 33e3235ccb5a59e4c8e4f75fcb445fee
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 808
-        width: 820
-        height: 816
+        x: 480
+        y: 1251
+        width: 819
+        height: 1095
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a91b139e0723e244585db91b7e9f93fc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_5
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 808
-        width: 820
-        height: 816
+        x: 1632
+        y: 1251
+        width: 819
+        height: 1095
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 77a402dcadf1f034f9ef0318bfcc57df
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_6
       rect:
         serializedVersion: 2
-        x: 2333
-        y: 808
-        width: 820
-        height: 816
+        x: 2813
+        y: 1245
+        width: 821
+        height: 1101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4229cd1ce13db0d488e8625077a2ed26
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_7
       rect:
         serializedVersion: 2
-        x: 3539
-        y: 808
+        x: 4019
+        y: 1251
         width: 819
-        height: 816
+        height: 1095
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f6f8f943b732b6c468cfc0d6a87221a5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_8
       rect:
         serializedVersion: 2
-        x: 18
-        y: 0
-        width: 783
-        height: 567
+        x: 516
+        y: 361
+        width: 786
+        height: 607
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b895392197da6b8488497144222bed4d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_9
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 0
-        width: 785
-        height: 567
+        x: 1668
+        y: 356
+        width: 786
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d79371aa640dcac4596be45d854ba748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_10
       rect:
         serializedVersion: 2
-        x: 2350
-        y: 0
+        x: 2849
+        y: 361
         width: 785
-        height: 567
+        height: 607
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 2df66c761ded05d40bf2adb85e555654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: hair girl_11
       rect:
         serializedVersion: 2
-        x: 3557
-        y: 0
-        width: 783
-        height: 567
+        x: 4056
+        y: 356
+        width: 785
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 2304b034b438591438a988c30ef04015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
-    physicsShape: []
-    bones: []
-    spriteID: 65ce751102976af4987a1cacd7096e5a
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
