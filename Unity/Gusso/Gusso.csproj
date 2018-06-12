@@ -79,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FeatureManeger.cs" />
+    <Compile Include="Assets\GabiSkin.cs" />
+    <Compile Include="Assets\Screens\Game1\Scripts\MudarRoupas.cs" />
+    <Compile Include="Assets\Screens\Game1\Scripts\SkinHugo.cs" />
     <Compile Include="Assets\Screens\Game2\Scripts\MenuClick.cs" />
     <Compile Include="Assets\Screens\Game2\Scripts\QuizScript.cs" />
     <Compile Include="Assets\Screens\Game3\Scripts\Baixo.cs" />
